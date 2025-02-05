@@ -1,7 +1,7 @@
 export const data = {}
 data.fetchPosts = async () => {
     try {
-        const response = await fetch('../data/chars.json');
+        const response = await fetch('data/chars.json');
         const posts = await response.json();
         return posts;
         
