@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}
+
+/* HEADER */
+h1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* BUTTONS */
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.listButton, .gridButton {
+    color: white;
+    background-color: black;
+    border: none;
+    transform: scale(1.2);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.listButton:hover, .gridButton:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    background-color: #222;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* GRID STYLE */
+.characterGrid {
+    color: #fff;
+    cursor: default;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s;
+    width: 280px;
+    height: 350px;
+}
+
+.gridImg {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+
+    &:hover{
+        cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #222;
+    }
+}
+
+.gridName {
+    font-family: 'Henny Penny', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* LIST STYLE */
+.characterList {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    background: #222;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.listImg {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.listName {
+    font-family: 'Henny Penny', cursive;
+    font-size: 24px;
+    color: white;
+}
+
+/* BUTTONS IN GRID & LIST */
+.grid, .list {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.grid {
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-size: 12px;
+}
+
+.list {
+    width: 240px;
+    height: 50px;
+    border: white solid 1px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.grid:hover, .list:hover {
+    background-color: #222;
+}
+
+/* SINGLE CHARACTER PAGE */
+.single-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.charImg {
+    height: 100%;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.p3 {
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.p4 {
+    color: white;
+    font-size: 18px;
+    width: 90%;
+    max-width: 450px;
+    margin: 20px;
+}
+
+
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .characterGrid {
+        width: 90%;
+        height: auto;
+    }
+
+    .characterList {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        padding: 15px;
+    }
+
+    .listImg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .listName {
+        font-size: 20px;
+    }
+
+    .gridImg {
+        height: 180px;
+        width: 180px;
+    }
+
+    .grid, .list {
+        width: 100%;
+        font-size: 14px;
+        height: auto;
+        padding: 8px;
+    }
+
+    .charImg {
+        max-width: 80%;
+    }
+
+    .p3 {
+        font-size: 24px;
+    }
+
+    .p4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .listButton, .gridButton {
+        font-size: 14px;
+        transform: scale(1);
+        padding: 8px 16px;
+    }
+
+    .listButton:hover, .gridButton:hover {
+        transform: scale(1.2);
+    }
+
+    .characterGrid, .characterList {
+        width: 95%;
+    }
+
+    .gridImg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .listImg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .charImg {
+        max-width: 90%;
+    }
+
+    .p3 {
+        font-size: 20px;
+    }
+
+    .p4 {
+        font-size: 14px;
+    }
+}

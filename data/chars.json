@@ -1,0 +1,106 @@
+[
+    
+    {
+        "id": 1,
+        "img":"../img/Daenerys.jpg" ,
+        "name": "Daenerys",
+        "media": "A Song of Ice and Fire",
+        "description":"Daenerys Targaryen, also known as Daenerys Stormborn, is one of the last confirmed members of House Targaryen, along with her older brother Viserys, who refers to her as Dany. She is the youngest child of King Aerys II Targaryen and his sister-wife, Queen Rhaella. She is one of the major POV characters in A Song of Ice and Fire.",
+        "color": "#590505"
+    },
+
+{ 
+        "id": 2, 
+        "img":"../img/GANDALF.jpg" ,
+        "name": "Gandalf",
+        "media": "Lord of the Rings",
+        "description": "Gandalf, known largely as the Grey and later, briefly, the White, and originally named Olórin (Quenya), was an Istar (Wizard), dispatched to Middle-earth in the Third Age to combat the threat of Sauron. He joined Thorin II and his company to reclaim the Lonely Mountain from Smaug, helped form the Fellowship of the Ring to destroy the One Ring, and led the Free Peoples of the World in the final campaign of the War of the Ring."
+        
+    
+    },
+
+{
+        "id": 3,
+        "img":"../img/Aragorn.jpg" ,
+        "name": "Aragorn",
+        "media": "Lord of the Rings",
+        "description":"Aragorn is a Ranger of the North, first introduced with the name Strider and later revealed to be the heir of Isildur, an ancient King of Arnor and Gondor."
+        
+    },
+
+{
+        "id": 4,
+        "img":"../img/Atreides.jpg" ,
+        "name": "Paul Atreides",
+        "media": "Dune",
+        "description":"Paul Atreides is the first Kwisatz Haderach, the last Duke of House Atreides, the first and founding Padishah Emperor of the Atreides Empire, and the supreme religious leader of the Fremen."
+    },
+
+{
+        "id": 5,
+        "img":"../img/Tony.jpg" ,
+        "name": "Tony Montana",
+        "media": "Scarface",
+        "description":"It's the story of Cuban refugee, Tony Montana (Al Pacino) who climbs to the top of Miami's cocaine scene, eventually falling prey to both addiction and his own assassination."
+    
+    },
+
+{
+        "id": 6,
+        "img":"../img/Ripley.jpg" ,
+        "name": "Ripley",
+        "media": "Alien",
+        "description":"Ellen Louise Ripley is a fictional character and the original protagonist of the Alien film series, played by American actress Sigourney Weaver. Considered one of the greatest characters in science fiction film history, the character earned Weaver worldwide recognition, and remains her most famous role to date."
+    
+    },
+
+{
+        "id": 7,
+        "img":"../img/Frank.jpg" ,
+        "name": "Frank",
+        "media": "It's Always Sunny",
+        "description":"Frank is a successful businessman and has a long history of illegal operations and diabolical schemes."
+    
+    },
+
+{
+        "id": 8,
+        "img":"../img/Valentine.jpg" ,
+        "name": "Nick Valentine",
+        "media": "Fallout 4",
+        "description":"Nick Valentine is a synth residing in Diamond City as well as the owner and sole detective of Valentine Detective Agency in the Commonwealth in Fallout 4."
+    
+    }
+
+
+
+
+
+    
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
